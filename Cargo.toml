@@ -1,0 +1,11 @@
+[package]
+name = "custom_logger_mqtt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fern = "*"
+log = "*"
+chrono = "*"
+tokio = { version = "*", features = ["full"] }
+rumqttc = "*"
